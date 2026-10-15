@@ -15,5 +15,5 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pytest ruff
-      - run: ruff check .
-      - run: pytest -q
+      - run: ruff check python-bootcamp
+      - run: pytest -q python-bootcamp
